@@ -3,7 +3,7 @@ echo "==== System Monitoring ===="
 echo ""
 
 echo "CPU Usage:"
-top
+top -bn1
 
 echo ""
 echo "Memory Usage:"
