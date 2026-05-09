@@ -57,3 +57,22 @@ This will create something like:
 archives/logs_archive_20260504_153000.tar.gz
 ```
 
+
+
+# NGINX Log Analyser
+https://roadmap.sh/projects/nginx-log-analyser
+
+## 📌 Description
+A simple CLI tool written in Bash to analyze NGINX access logs and extract useful insights.
+
+## 🚀 Features
+- Top 5 IP addresses
+- Top 5 requested paths
+- Top 5 HTTP status codes
+- Top 5 user agents
+
+## ⚙️ Usage
+
+```bash
+chmod +x analyser.sh
+./analyser.sh sample.log
